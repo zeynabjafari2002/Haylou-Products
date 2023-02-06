@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navBar{
+  padding: 50px;
+}
+#back{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: snow;
+  font-size: 15px;
+  cursor: pointer;
+}
+.detail{
+  width: 70%;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  height: auto;
+  border-radius: 10px;
+}
+.detail h1{
+  padding: 40px;
+}
+.info{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.detail p{
+  width: 100%;
+  padding: 40px;
+}
+.detail img{
+  justify-self: center;
+}

@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.productContainer{
+  display: grid;
+  grid-template-columns: repeat(3,350px);
+  gap: 50px;
+  margin-top: 100px;
+}
+.infoContainer {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  padding: 20px;
+  border-radius: 10px;
+}
+.infoContainer h3{
+  font-size: 25px;
+  padding: 5px;
+}
+.infoContainer span{
+  font-size: 12px;
+  color: gray;
+  padding: 5px;
+}
+.infoContainer img{
+  width: 200px;
+  padding-left: 30px;
+}
+.infoContainer p{
+  float: left;
+  padding-top: 220px;
+  display: inline;
+}
+.infoContainer button{
+  padding: 10px;
+  color: snow;
+  background-color: black;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
