@@ -20,14 +20,13 @@ backBtn.addEventListener('click' , ()=>{
 
 let locationParam=new URLSearchParams(location.search)
 let mainProductId=locationParam.get('id')
-// console.log(mainProductId)
 
 let mainProductObj=products.findIndex(
   function (product){
     return product.id===Number(mainProductId)
   }
 )
-// console.log(mainProductObj)
+
 if (mainProductObj){
   productTitle.innerHTML=products[mainProductObj].name
   productDesc.innerHTML=products[mainProductObj].desc
@@ -40,8 +39,4 @@ else if(mainProductObj===0){
 }
 else{
   window.location.href="http://127.0.0.1:5500/html/index.html"
-  // console.log('something went wrong')
 }
-// console.log(mainProductObj)
-
-// console.log(location.search)
